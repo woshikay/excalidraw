@@ -30,8 +30,8 @@ const prerelease = async (nextVersion) => {
 };
 
 const nextVersion = process.argv.slice(2)[0];
-if (!nextVersion) {
-  console.error("Pass the next version to release!");
-  process.exit(1);
-}
+// if (!nextVersion) {
+//   console.error("Pass the next version to release!");
+//   process.exit(1);
+// }
 prerelease(nextVersion);

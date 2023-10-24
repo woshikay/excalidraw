@@ -7,7 +7,7 @@ import { isExcalidrawPlusSignedUser } from "../app_constants";
 export const AppFooter = React.memo(() => {
   return (
     <Footer>
-      <div
+      {/*<div
         style={{
           display: "flex",
           gap: ".5rem",
@@ -19,7 +19,7 @@ export const AppFooter = React.memo(() => {
         ) : (
           <EncryptedIcon />
         )}
-      </div>
+        </div>*/}
     </Footer>
   );
 });

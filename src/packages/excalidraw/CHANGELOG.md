@@ -11,12 +11,89 @@ The change should be grouped under one of the below section and must contain PR 
 Please add the latest change on the top under the correct section.
 -->
 
-## Unreleased
+## undefined (2023-10-24)
 
 ### Features
 
 - Add `selected` prop for `MainMenu.Item` and `MainMenu.ItemCustom` components to indicate active state. [7078](https://github.com/excalidraw/excalidraw/pull/7078)
 
+## Excalidraw Library
+
+**_This section lists the updates made to the excalidraw library and will not affect the integration._**
+
+### Features
+
+- Renderer tweaks [#6698](https://github.com/excalidraw/excalidraw/pull/6698)
+
+- Support `props.locked` for `setActiveTool` [#7153](https://github.com/excalidraw/excalidraw/pull/7153)
+
+- Add `onChange`, `onPointerDown`, `onPointerUp` api subs [#7154](https://github.com/excalidraw/excalidraw/pull/7154)
+
+- Closing of "Save to.." Dialog on Save To Disk [#7168](https://github.com/excalidraw/excalidraw/pull/7168)
+
+- Added Copy/Paste from Google Docs [#7136](https://github.com/excalidraw/excalidraw/pull/7136)
+
+- Remove bound-arrows from frames [#7157](https://github.com/excalidraw/excalidraw/pull/7157)
+
+- New dark mode theme & light theme tweaks [#7104](https://github.com/excalidraw/excalidraw/pull/7104)
+
+- Better laser cursor for dark mode [#7132](https://github.com/excalidraw/excalidraw/pull/7132)
+
+- Laser pointer improvements [#7128](https://github.com/excalidraw/excalidraw/pull/7128)
+
+- Initial Laser Pointer MVP [#6739](https://github.com/excalidraw/excalidraw/pull/6739)
+
+- Export `iconFillColor()` [#6996](https://github.com/excalidraw/excalidraw/pull/6996)
+
+- Element alignments - snapping [#6256](https://github.com/excalidraw/excalidraw/pull/6256)
+
+### Fixes
+
+- Better fill rendering with latest RoughJS [#7031](https://github.com/excalidraw/excalidraw/pull/7031)
+
+- Fix for Strange Symbol Appearing on Canvas after Deleting Grouped Graphics (Issue #7116) [#7170](https://github.com/excalidraw/excalidraw/pull/7170)
+
+- Attempt to fix flake in wysiwyg tests [#7173](https://github.com/excalidraw/excalidraw/pull/7173)
+
+- Ensure `ClipboardItem` created in the same tick to fix safari [#7066](https://github.com/excalidraw/excalidraw/pull/7066)
+
+- Double image dialog shown on insert [#7152](https://github.com/excalidraw/excalidraw/pull/7152)
+
+- Wysiwyg left in undefined state on reload [#7123](https://github.com/excalidraw/excalidraw/pull/7123)
+
+- Ensure relative z-index of elements added to frame is retained [#7134](https://github.com/excalidraw/excalidraw/pull/7134)
+
+- Memoize static canvas on `props.renderConfig` [#7131](https://github.com/excalidraw/excalidraw/pull/7131)
+
+- Regression from #6739 preventing redirect link in view mode [#7120](https://github.com/excalidraw/excalidraw/pull/7120)
+
+- Update links to excalidraw-app [#7072](https://github.com/excalidraw/excalidraw/pull/7072)
+
+- Ensure we do not stop laser update prematurely [#7100](https://github.com/excalidraw/excalidraw/pull/7100)
+
+- Remove invisible elements safely [#7083](https://github.com/excalidraw/excalidraw/pull/7083)
+
+- Icon size in manifest [#7073](https://github.com/excalidraw/excalidraw/pull/7073)
+
+- Elements being dropped/duplicated when added to frame [#7057](https://github.com/excalidraw/excalidraw/pull/7057)
+
+- Frame name not editable on dbl-click [#7037](https://github.com/excalidraw/excalidraw/pull/7037)
+
+- Polyfill `Element.replaceChildren` [#7034](https://github.com/excalidraw/excalidraw/pull/7034)
+
+###  Refactor
+
+- DRY out tool typing [#7086](https://github.com/excalidraw/excalidraw/pull/7086)
+
+- Refactor event globals to differentiate from `lastPointerUp` [#7084](https://github.com/excalidraw/excalidraw/pull/7084)
+
+- DRY out and simplify setting active tool from toolbar [#7079](https://github.com/excalidraw/excalidraw/pull/7079)
+
+### Performance
+
+- Improve element in frame check [#7124](https://github.com/excalidraw/excalidraw/pull/7124)
+
+---
 ## 0.16.1 (2023-09-21)
 
 ## Excalidraw Library

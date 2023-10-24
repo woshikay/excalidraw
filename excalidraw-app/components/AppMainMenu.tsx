@@ -23,7 +23,7 @@ export const AppMainMenu: React.FC<{
 
       <MainMenu.DefaultItems.Help />
       <MainMenu.DefaultItems.ClearCanvas />
-      <MainMenu.Separator />
+      {/*<MainMenu.Separator />
       <MainMenu.ItemLink
         icon={PlusPromoIcon}
         href={`${
@@ -35,7 +35,7 @@ export const AppMainMenu: React.FC<{
       </MainMenu.ItemLink>
       <MainMenu.DefaultItems.Socials />
       <MainMenu.Separator />
-      <MainMenu.DefaultItems.ToggleTheme />
+      <MainMenu.DefaultItems.ToggleTheme />*/}
       <MainMenu.ItemCustom>
         <LanguageList style={{ width: "100%" }} />
       </MainMenu.ItemCustom>
