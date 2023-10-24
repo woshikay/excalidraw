@@ -84,5 +84,6 @@
     "install:deps": "yarn install --frozen-lockfile && yarn --cwd ../../../",
     "build:example": "EXAMPLE=true webpack --config webpack.dev-server.config.js && yarn gen:types",
     "size": "yarn build:umd && size-limit"
-  }
+  },
+  "version": "0.16.2"
 }
