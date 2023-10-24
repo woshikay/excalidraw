@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "@actions/core": "1.10.1",
     "@braintree/sanitize-url": "6.0.2",
     "@excalidraw/laser-pointer": "1.2.0",
     "@excalidraw/random-username": "1.0.0",
